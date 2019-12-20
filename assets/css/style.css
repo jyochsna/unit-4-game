@@ -26,6 +26,12 @@ body {
      /* margin-left:10px; */
      height: 70px;
      width:15px;
+     font-weight: bold;
+ }
+ h3{
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     color:black
  }
 /*for image*/
  img {
@@ -42,5 +48,6 @@ body {
      margin-top: 10px;
      height:70px;
      text-align: center;
+     font-weight: bold;
  }
 
