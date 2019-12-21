@@ -61,6 +61,7 @@ if(totalScore == ranNumber){
     wins++;
     $("#wins").text("Wins: " + wins);
     startGame();
+    pickRandomNumber(ranMin , ranMax);
    
 }
 if(totalScore > ranNumber){
@@ -68,6 +69,7 @@ if(totalScore > ranNumber){
     losses++;
     $("#losses").text("Losses: " + losses);
     startGame();
+    pickRandomNumber(ranMin , ranMax);
    
 
 }
